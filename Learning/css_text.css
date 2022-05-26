@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+    font-weight: 400;
+    text-decoration: #f69420 underline wavy;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif; the fonts placed after the commas are the alternative backups
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+p{
+    line-height: 2;
+}
+*{
+    font-family: cursive;
+}
+h1,h2{
+    color: darkslateblue;
+}
+body
+{
+    background-color: #f4f1de;
+}
+button{
+    background-color: #f2cc8f;
+}
+#signup
+{
+    background-color: #3d405b;
+    color: #f2cc8f
+}
+a:hover{
+    text-decoration: underline;
+}
+button:hover{
+    background-color: red;
+    color: white;
+}
+button:active{
+    background-color: #02c39a;
+    color:black;
+}

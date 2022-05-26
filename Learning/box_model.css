@@ -1,0 +1,38 @@
+div{
+    width:100px;
+    height:100px;
+    background-color: rgb(78, 78, 207);
+    border: 3px black solid;
+    display: inline-block;
+    margin:10px;
+}
+#m{
+    background-color: rgb(91, 138, 139);
+}
+h1{
+    background-color: pink;
+    width: 100px;
+    padding-left: 70px;
+}
+#static #m{
+    position:static;
+    top: 100px;
+}
+#relative #m{
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+#absolute{
+    position: relative;
+}
+#absolute #m{
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
+#fixed #m{
+    position: fixed;
+    top: 1px;
+    left: 50%;
+}
