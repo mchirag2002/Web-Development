@@ -16,9 +16,42 @@ h1 {
     /*this marks that we have turned on flexbox for this entity*/
     /* in flexbox model, there are 2 axis, the x axis is referred to as the main axis.
 the y axis is referred to as the cross axis. */
+
+
+    /* since we are using flexbox in the section container, the divs will not go outside the section.
+    their specified heights will change proportionaltely to accomodate the space as we will see in flex-direction column*/
+
+    flex-direction: row;
+    /*does no change is default*/
+    /*flex-direction: row-reverse; reversses the order....from right to left*/
+    /*flex-direction: column; the axis interchange*/
+    /*flex-direction: column-reverse; column direction reverses*/
+
+
+    /*justify-content: flex-start; normal alignment as usual*/
+    /*justify-content: flex-end; main axis ke opp end se alignment*/
+    /*justify-content: center; center align*/
+    /*justify-content: space-between; it equally distributes the space between the boxes but not at their extreme ends*/
+    /*justify-content: space-around; it equally divides space even including the corner edges for it but since it is at border, only half of space is visible kyunki normally to 2nd block ka half bhi aa jaata hai*/
+    justify-content: space-evenly;
+    /*this is pure equal spaces between every element and the border as well*/
+
+
+    /*flex-wrap: wrap; it will make the elements adjust into new rows or columns */
+    /*flex-wrap: wrap-reverse;
+    this will change the cross axis*/
+    /*by default wrapping is off*/
+
+
+    /*align-items: flex-start; it aligns the items along the cross axis.. it starts from the top*/
+    /*align-items: flex-end; it aligns the items from the ending of the cross axis normally from the bottom*/
+    /*align-items: center; it aligns via the center of the item with the center of the cross axis*/
+    align-items: baseline;
+    /*this aligns via the line of the content, here the text.*/
 }
 
 #container div {
     width: 200px;
     height: 200px;
+    font-size: 4em;
 }
