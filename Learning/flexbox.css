@@ -37,7 +37,8 @@ the y axis is referred to as the cross axis. */
     /*this is pure equal spaces between every element and the border as well*/
 
 
-    /*flex-wrap: wrap; it will make the elements adjust into new rows or columns */
+    flex-wrap: wrap;
+    /*it will make the elements adjust into new rows or columns */
     /*flex-wrap: wrap-reverse;
     this will change the cross axis*/
     /*by default wrapping is off*/
@@ -48,6 +49,9 @@ the y axis is referred to as the cross axis. */
     /*align-items: center; it aligns via the center of the item with the center of the cross axis*/
     align-items: baseline;
     /*this aligns via the line of the content, here the text.*/
+
+    align-content: center;
+    /*this only works when flex-wrap is turned on*/
 }
 
 #container div {
